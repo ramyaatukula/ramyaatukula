@@ -1,0 +1,86 @@
+<div class="main-content">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header member-header">
+                <div class="row">
+                    <div class="col-md-2 page-heading" style="font-size:1.1rem"> {{'New Contact'}</div>
+                </div>
+                <div class="form-group row">
+                <div class="col-md-2">
+                    <label>{{'firstname'}} <span class="required">*</span> </label>
+                </div>
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="firstname" disabled/>
+                 </div>
+            </div>  
+            <div class="form-group row">
+                <div class="col-md-2">
+                    <label>{{'lastname' }} <span class="required">*</span> </label>
+                </div>
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="lastname" disabled/>
+                 </div>
+            </div>  
+            <div class="form-group row">
+                <div class="col-md-2">
+                    <label>{{'email' } <span class="required">*</span> </label>
+                </div>
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="email" disabled/>
+                 </div>
+            </div>  
+            <div class="form-group row">
+                <div class="col-md-2">
+                    <label>{{'username' }} <span class="required">*</span> </label>
+                </div>
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="username" disabled/>
+                 </div>
+            </div>  
+            <div class="form-group row">
+                <div class="col-md-2">
+                    <label>{{'Password' }} <span class="required">*</span> </label>
+                </div>
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="Password" disabled/>
+                 </div>
+            </div>  
+            <div class="form-group row">
+                <div class="col-md-2">
+                    <label>{{'confirm Password' }} <span class="required">*</span> </label>
+                </div>
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="confirm Password" disabled/>
+                 </div>
+            </div>  
+            <div class="form-group row">
+                <div class="col-md-2">
+                    <label>{{'phone No' }} <span class="required">*</span> </label>
+                </div>
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="phone No" disabled/>
+                 </div>
+            </div>  
+            <div class="form-group row">
+                <div class="col-md-2">
+                    <label>{{'Address' }} <span class="required">*</span> </label>
+                </div>
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="Address" disabled/>
+                 </div>
+            </div>  
+            <div class="form-group row col-4 p-d-none" style="float: right;">
+
+                <div class="col-6 col-sm-4 col-md-2 col-xl mb-3 mb-xl-0">
+                    <button type="button" class="btn btn-block btn-secondary"
+                        (click)="cancelForm()"> cancel </button>
+                </div>
+                <div class="col-6 col-sm-4 col-md-2 col-xl mb-3 mb-xl-0">
+              
+                    <button type="button" class="btn btn-block btn-primary" 
+                        (click)="submitUser()"> submit </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
